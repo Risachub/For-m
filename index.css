@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+}
+
+body{
+  background-color: rgb(15, 15, 42);
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;;
+}
+
+.flex-container{
+  display: flex;
+  box-sizing: border-box;
+  margin: 30px;
+}
+
+.flex-container > div{
+  box-sizing: border-box;
+  background-color: rgb(218, 217, 217);
+  border-radius: 5px;
+  width: 40%;
+  margin: 30px;
+  padding: 20px; 
+  height: 650px;
+  
+}
+.flex-container > .div1{
+  height: 350px;
+}
+h2{
+  text-align: center;
+  font-size: x-large;
+  margin: 8px;
+}
+p{
+  text-align: center;
+  margin: 8px;
+}
+
+a{
+  color: rgb(33, 132, 99);
+}
+input[type=text] {
+  box-sizing: border-box;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px;
+}
+input[type=email] {
+  box-sizing: border-box;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 20px;
+}
+input[type=password] {
+  box-sizing: border-box;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 20px;
+}
+input[type=Cpassword] {
+  box-sizing: border-box;
+  border: 2px solid rgb(133, 133, 133);
+  border-radius: 6px;
+  width: 100%;
+  display: inline-block;
+  margin: 8px 0;
+  padding: 12px 20px;
+}
+input[type=submit] {
+  box-sizing: border-box;
+  background-color: rgb(58, 142, 142);
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  cursor: pointer;
+  background-color: chocolate;
+}
+
+@media screen and (max-width: 600px) {
+  div, .div1,  input[type=text], input[type=email], input[type=password], input[type=Cpassword], input[type=submit] { 
+    width: 100%
+  }
+}
+@media screen and (max-height: 200px) {
+  div, .div1, input[type=text], input[type=email], input[type=password], input[type=Cpassword], input[type=submit] { 
+    width: 100%
+  }
+}

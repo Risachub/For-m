@@ -3,9 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Sign Up</title>
+  <link rel="shortcut icon" href="images/favicon.io.jfif" type="image/x-icon">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
 </head>
 <body>
   
+  <div class="flex-container">
+    <div>
+      <h2>Sign Up</h2>
+      <p>It's free and only takes a Minute</p>
+    <form>
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="fname" placeholder="First name">
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lname" placeholder="last name">
+      <label for="email">Your Email</label>
+      <input type="email" name="email" id="email" placeholder="example@gmail.com">
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" maxlength="8">
+      <label for="Cpassword">Confirm Password</label>
+      <input type="Cpassword" name="Cpassword" id="Cpassword">
+      <input type="submit" value="Submit">
+  
+      <p><small>By clicking the sign in butons you agree to our</small></p>
+      <p><small><u>Terms and Condition</u> and <u>Policy Privacy</u></small></p><br><br>
+      <p style="color: white;">Already have an account? <a href="form.html">Login Here</a></p>
+    </form>
+    </div>
+    <!-- End of First div -->
+  <!-- Second Div -->
+      <div class="div1">
+        <form>
+        <h2>Login</h2>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" size="44"><br><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password" id="password" size="44"><br><br>
+        <input type="submit" value="Submit"><br><br><br>
+        <p style="color: white;">Not have an account? <a href="form.html">Sign up here</a></p>
+      </form>
+      </div>
+      
+    </div>
+  
+
 </body>
 </html>
