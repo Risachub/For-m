@@ -97,9 +97,14 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 600px) {
-  div, .div1,  input[type=text], input[type=email], input[type=password], input[type=Cpassword], input[type=submit] { 
+  .flex-container,  input[type=text], input[type=email], input[type=password], input[type=Cpassword], input[type=submit] { 
     width: 100%
   }
+  .flex-container {margin:5px;}
+  .flex-container > div {width: 80%; margin: 10px; padding: 7px; height: 680px;}
+  p {font-size: 14px;}
+  label {font-size: 14px;}
+  body {padding: 5px;}
 }
 @media screen and (max-height: 200px) {
   div, .div1, input[type=text], input[type=email], input[type=password], input[type=Cpassword], input[type=submit] { 
